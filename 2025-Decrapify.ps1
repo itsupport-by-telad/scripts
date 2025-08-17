@@ -30,9 +30,9 @@ Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\DataCollection
 #Disable-ScheduledTask -TaskName "Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" | Out-Null
 #Disable-ScheduledTask -TaskName "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" | Out-Null
 #Disable-ScheduledTask -TaskName "\Microsoft\Windows\Defrag\ScheduledDefrag" | Out-Null
-#######################################
+######################################
 Write-Output "Disabling Scheduled Tasks"
-#######################################
+######################################
 $tasks = @(
 	"Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser"
 	"Microsoft\Windows\Application Experience\ProgramDataUpdater"
