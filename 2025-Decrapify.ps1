@@ -1252,3 +1252,4 @@ Write-Host "Press any key to restart your system..." -ForegroundColor Black -Bac
 $key = $host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
 Write-Host "Restarting..."
 Restart-Computer
+
